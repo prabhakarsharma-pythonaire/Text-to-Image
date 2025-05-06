@@ -21,3 +21,22 @@ Install the required Python packages:
 
 ```bash
 pip install diffusers transformers accelerate torch pillow tqdm
+
+
+🔐 Authenticatio
+from huggingface_hub import notebook_login
+notebook_login()
+
+
+#inputs
+You will be prompted to enter image generation parameters such as:
+
+Text prompt
+
+Negative prompt
+
+Number of inference steps
+
+Guidance scale
+
+Image dimensions
